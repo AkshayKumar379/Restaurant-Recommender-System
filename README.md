@@ -2,7 +2,7 @@
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -10,11 +10,11 @@ This project builds a machine learning–based recommendation system to predict 
 
 
 
-\---
+---
 
 
 
-\## Problem Statement
+## Problem Statement
 
 
 
@@ -22,79 +22,79 @@ Instead of directly predicting vendor IDs, the problem is reframed as a \*\*bina
 
 
 
-\* Given (customer, vendor) → predict probability of selection
+* Given (customer, vendor) → predict probability of selection
 
 
 
-\---
+---
 
 
 
-\## Approach
+## Approach
 
 
 
-\### 1. Data Preparation
+### 1. Data Preparation
 
 
 
-\* Split dataset into:
+* Split dataset into:
 
 
 
-&#x20; \* Customer features
+&#x20; * Customer features
 
-&#x20; \* Vendor features
-
-
-
-\### 2. Dataset Creation
+&#x20; * Vendor features
 
 
 
-\* Created customer–vendor pairs:
+### 2. Dataset Creation
 
 
 
-&#x20; \* Label = 1 (chosen vendor)
-
-&#x20; \* Label = 0 (non-chosen vendors)
+* Created customer–vendor pairs:
 
 
 
-\### 3. Model
+&#x20; * Label = 1 (chosen vendor)
+
+&#x20; * Label = 0 (non-chosen vendors)
 
 
 
-\* Random Forest Classifier
+### 3. Model
 
 
 
-\### 4. Evaluation
+* Random Forest Classifier
 
 
 
-\* Accuracy: \~81%
-
-\* Metrics:
+### 4. Evaluation
 
 
 
-&#x20; \* Precision
+* Accuracy: ~81%
 
-&#x20; \* Recall
-
-&#x20; \* F1 Score
-
-&#x20; \* ROC-AUC
+* Metrics:
 
 
 
-\---
+&#x20; * Precision
+
+&#x20; * Recall
+
+&#x20; * F1 Score
+
+&#x20; * ROC-AUC
 
 
 
-\## Recommendation System
+---
+
+
+
+## Recommendation System
 
 
 
@@ -102,29 +102,29 @@ For a given customer:
 
 
 
-1\. Combine with all vendors
+1. Combine with all vendors
 
-2\. Predict probability
+2. Predict probability
 
-3\. Rank vendors
+3. Rank vendors
 
-4\. Recommend top results
-
-
-
-\---
+4. Recommend top results
 
 
 
-\## Tech Stack
+---
 
 
 
-\* Python
+## Tech Stack
 
-\* Pandas
 
-\* NumPy
 
-\* Scikit-learn
+* Python
+
+* Pandas
+
+* NumPy
+
+* Scikit-learn
 
